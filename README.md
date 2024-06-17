@@ -33,8 +33,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/P-Lucas-S/social-links-profile-main)
+- Live Site URL: [Add live site URL here](https://P-Lucas-S.github.io/social-links-profile-main
+)
 
 ## My process
 
@@ -104,9 +105,9 @@ In future projects, I plan to continue focusing on:
 
 ## Author
 
-- Website - [Pedro Lucas](https://www.your-site.com)
-- Frontend Mentor - [@pedro-lucas](https://www.frontendmentor.io/profile/pedro-lucas)
-- LinkedIn - [Pedro Lucas](https://www.linkedin.com/in/pedro-lucas-b24190204)
+- Website - [Pedro Lucas](https://github.com/P-Lucas-S)
+- Frontend Mentor - [@pedro-lucas](https://www.frontendmentor.io/profile/P-Lucas-S)
+- LinkedIn - [Pedro Lucas](www.linkedin.com/in/pedro-lucas-b24190204)
 
 ## Acknowledgments
 
