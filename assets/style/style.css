@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-background: hsl(0, 0%, 8%);
+    --color-card-background: hsl(0, 0%, 12%);
+    --color-primary-text: white;
+    --color-highlight: hsl(75, 94%, 57%);
+    --color-button: hsl(0, 0%, 20%);
+    --color-button-hover-background: hsl(75, 94%, 57%);
+    --color-button-hover-text: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--color-primary-text);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--color-card-background);
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.perfil {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome {
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.localizacao {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--color-highlight);
+}
+
+button {
+    background-color: var(--color-button);
+    color: var(--color-primary-text);
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    height: 55px;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--color-button-hover-background);
+    color: var(--color-button-hover-text);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .principal {
+        padding: 30px;
+    }
+}
